@@ -1,0 +1,130 @@
+html,
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+/*ejercicio 1*/
+
+.container5 {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(140, 245, 245);
+    color: #fff;
+    font-family: monospace;
+}
+
+/*ejercicio 2*/
+.container4 {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    border: 1px solid rgb(70, 70, 70);
+    margin: 10px;
+
+}
+
+.search {
+    width: 15%;
+    background-color: rgb(83, 218, 241);
+    color: #fff;
+    border-left: 1px solid rgb(70, 70, 70);
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+/*ejercicio 3*/
+.container3 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid #000;
+    margin: auto;
+}
+
+.navbar-text {
+    margin: 10px;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+.navbar-icon {
+    margin-right: auto;
+    padding: 20px;
+    color: rgb(221, 147, 221);
+}
+
+/*ejercicio 4 */
+.container2 {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.box {
+    background-color: rgb(255, 100, 177);
+    width: 250px;
+    height: 50px;
+    margin: 15px;
+}
+
+.text {
+    color: #fff;
+    text-align: center;
+    margin-top: 19px;
+    font-size: large;
+    font-weight: 800;
+    font-family: monospace;
+}
+
+
+/*ejercicio 5 */
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-1 {
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+}
+
+.image-2 {
+    width: 1060px;
+    height: 300px;
+    margin: 10px;
+}
+
+.image-3 {
+    width: 250px;
+    height: 450px;
+    margin: 10px;
+}
